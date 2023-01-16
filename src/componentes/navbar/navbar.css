@@ -8,12 +8,20 @@
     align-items: center;
     width: 100%;
     height: auto;
-    background-color: rgb(219, 219, 219);
 }
-.title-navbar{
-    margin: 0;
-    padding: 5px 0px;
-    font-size: 35px;
+.container-search-logo-carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.container-img-logo{
+    width: 33%;
+}
+.img-logoSM{
+    width: 150px;
+    margin: 10px 0px 10px 0px; 
 }
 .container-list {
     margin: 0;
@@ -39,4 +47,12 @@
     cursor: pointer;
     font-size: 16px;
     font-weight: 400;
+}
+.container-search{
+    width: 33%;
+}
+.buscador{
+    border: 2px solid red;
+    width: 200px;
+    height: auto;
 }

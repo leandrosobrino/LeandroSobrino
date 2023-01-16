@@ -1,28 +1,28 @@
+.continaer-cart{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+     width: 33%;
+}
 .container-carrito{
-    position: absolute;
-    top: 15px;
-    right: 15px;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
-    height: auto;
     margin: 0;
     padding: 5px;
     border: solid 1px black;
-    border-radius: 10px;
+    border-radius: 10px;   
 }
 .img-carrito{
-    width: 30px;
+    width: 25px;
     height: auto;
     margin: 0;
     padding: 0;
 }
 .container-carrito p{
-    width: auto;
-    height: auto;
-    margin: 0;
-    padding: 0px 0px 0px 5px;
-    
- 
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
 }
